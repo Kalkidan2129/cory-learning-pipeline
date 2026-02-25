@@ -1,0 +1,16 @@
+[project]
+name = "cory-learning-pipeline"
+version = "0.1.0"
+description = "Cory automated learning and diagnostics pipeline"
+requires-python = ">=3.9"
+
+dependencies = [
+    "pandas",
+    "sqlalchemy",
+    "pyodbc",
+    "matplotlib",
+    "scikit-learn",
+    "joblib",
+    "python-dotenv",
+    "pyarrow"
+]
